@@ -100,7 +100,7 @@ data:
         Name            cloudwatch_logs
         Match           kube.grafana.*
         region          us-east-1
-        log_group_name  ${CLUSTER_NAME}-namespace-service
+        log_group_name  ${CLUSTER_NAME}-grafana
         auto_create_group   true
         log_stream_prefix   ${CLUSTER_NAME}-
 
